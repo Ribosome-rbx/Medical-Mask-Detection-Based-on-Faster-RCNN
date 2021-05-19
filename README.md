@@ -26,12 +26,12 @@ python ../data_augmentation/augment.py
 ```
 Augmented images and annotations are generated in `output/`.
 ## Requirements
-Python 3.8 or later with all [requirements.txt](https://github.com/Ribosome-rbx/Medical-Mask-Detection-Based-on-Faster-RCNN/blob/master/requirements.txt) dependencies installed, including `torch>=1.7`. To install run:
+Python 3.8 or later with all [requirements.txt](https://github.com/Ribosome-rbx/Realtime-Medical-Mask-Detection-Based-on-Faster-RCNN/blob/master/requirements.txt) dependencies installed, including `torch>=1.7`. To install run:
 ```bash
 pip install -r requirements.txt
 ```
 ## Train
-Open [mask-fasterrcnn.ipynb](https://github.com/Ribosome-rbx/Medical-Mask-Detection-Based-on-Faster-RCNN/blob/master/mask-fasterrcnn.ipynb) with Colab. 
+Open [mask-fasterrcnn.ipynb](https://github.com/Ribosome-rbx/Realtime-Medical-Mask-Detection-Based-on-Faster-RCNN/blob/master/mask-fasterrcnn.ipynb) with Colab. 
 Change **data_path** and **output_path** in `augment.py` to corresponding paths, and run blocks in the notebook.
 ```bash
 data_path = r'../data_augmentation/output'
