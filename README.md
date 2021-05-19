@@ -4,7 +4,17 @@ This is an official implementation of blog: website-under-construction
 ## Dataset
 We use a small dataset [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-detection), found available on Kaggle. In this dataset, we have 853 images belonging to 3 classes ('with mask', 'without mask' and 'masks worn incorrectly'). And the whole dataset is stored in `data_augmentation/input`.
 ## Data Augmentation
-With files(images and annotations) to augment put in `input/`(Do not create sub directories). Change the **INPUT_DIR** and **OUTPUT_DIR** in `augment.py` to corresponding paths. **AUGMENT_SIZE** decides haw many augmented images will be produced from one original image.
+With files(images and annotations) to augment put in `input/`(Do not create sub directories). Create a `output` folder under directory of '../data_augmentation' with two sub-folder `images` and `annotations` in it. The relative locations of the files are as follows：
+```bash
+|--data_augmentation
+   |--util
+   |--augment.py
+   |--input
+   |--output
+      |--images
+      |--annotations      
+```
+Change the **INPUT_DIR** and **OUTPUT_DIR** in `augment.py` to corresponding paths. **AUGMENT_SIZE** decides haw many augmented images will be produced from one original image.
 ```bash
 INPUT_DIR = '../data_augmentation/input'
 OUTPUT_DIR = '../data_augmentation/output'
