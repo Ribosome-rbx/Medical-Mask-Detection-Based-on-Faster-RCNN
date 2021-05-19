@@ -53,5 +53,5 @@ However, the processing speed is much slower than our expectation, which only ac
 + Bachelor of Communication Engineering (2022.7 Expected)
 + Qiushi Honor College, Tianjin University (TJU)
 **CONTACT ME**: 
-+ E-mail: rongboxiang@tju.edu.cn
-+ Address: 92 Weijin Road, Tianjin, P.R. China
+- E-mail: rongboxiang@tju.edu.cn
+- Address: 92 Weijin Road, Tianjin, P.R. China
