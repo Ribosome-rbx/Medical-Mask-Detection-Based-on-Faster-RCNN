@@ -49,8 +49,9 @@ python C:\Downloads\Medical-Mask-Detection-Based-on-Faster-RCNN\realtime\camera.
 ```
 However, the processing speed is much slower than our expectation, which only achieves to detect one frame for each five seconds. The way for feeding frame into the model have a lot of room to be optimized. For more details, please check the source code.
 ## About me
-+Bachelor of Communication Engineering (2022.7 Expected)
-+Qiushi Honor College, Tianjin University (TJU)
+**EDUCATION**: 
++ Bachelor of Communication Engineering (2022.7 Expected)
++ Qiushi Honor College, Tianjin University (TJU)
 **CONTACT ME**: 
-+E-mail: rongboxiang@tju.edu.cn
-+Address: 92 Weijin Road, Tianjin, P.R. China
++ E-mail: rongboxiang@tju.edu.cn
++ Address: 92 Weijin Road, Tianjin, P.R. China
