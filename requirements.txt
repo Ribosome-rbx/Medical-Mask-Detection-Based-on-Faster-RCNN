@@ -1,0 +1,12 @@
+python 3
+numpy
+pandas
+os
+copencv-python
+beautifulsoup4
+lxml
+torch
+torchvision
+sklearn
+matplotlib
+pascal_voc_writer
