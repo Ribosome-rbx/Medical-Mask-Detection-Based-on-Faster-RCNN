@@ -71,7 +71,7 @@ def augment(annotation):
       if (bb.x2-bb.x1)*(bb.y2-bb.y1) > 0:
         writer.addObject(bb.label, bb.x1, bb.y1, bb.x2, bb.y2)
       else:
-        print("augmentet boundingbox has non existing area. Skipping")
+        print("augmented boundingbox has non existing area. Skipping")
         count = count -1
         continue
       
