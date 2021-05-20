@@ -1,8 +1,6 @@
-python 3
 numpy
 pandas
-os
-copencv-python
+opencv-python
 beautifulsoup4
 lxml
 torch
