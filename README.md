@@ -14,7 +14,7 @@ With files(images and annotations) to augment put in `input/`(Do not create sub 
       |--images
       |--annotations      
 ```
-Change the **INPUT_DIR** and **OUTPUT_DIR** in `augment.py` to corresponding paths. **AUGMENT_SIZE** decides haw many augmented images will be produced from one original image.
+Change the **INPUT_DIR** and **OUTPUT_DIR** in `augment.py` to corresponding paths. **AUGMENT_SIZE** decides how many augmented images will be produced from one original image.
 ```bash
 INPUT_DIR = '../data_augmentation/input'
 OUTPUT_DIR = '../data_augmentation/output'
