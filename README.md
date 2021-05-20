@@ -4,7 +4,7 @@ This is an official implementation of blog: website-under-construction
 ## Dataset
 We use a small dataset [Face Mask Detection](https://www.kaggle.com/andrewmvd/face-mask-detection), found available on Kaggle. In this dataset, we have 853 images belonging to 3 classes ('with mask', 'without mask' and 'masks worn incorrectly'). And the whole dataset is stored in `data_augmentation/input`.
 ## Data Augmentation
-With files(images and annotations) to augment put in `input/`(Do not create sub directories). Create a `output` folder under directory of '../data_augmentation' with two sub-folders `images` and `annotations` in it. The relative locations of files are as follows：
+With files(images and annotations) to augment put in `input/`(in two sub folders). Create a `output` folder under directory of '../data_augmentation' with two sub-folders `images` and `annotations` in it. The relative locations of files are as follows：
 ```bash
 |--data_augmentation
    |--util
